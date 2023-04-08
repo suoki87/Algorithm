@@ -1,4 +1,7 @@
-﻿namespace ConsoleApp1
+﻿using System;
+using System.Linq;
+
+namespace ConsoleApp1
 {
     // 문제 설명
     // 마법의 세계에 사는 민수는 아주 높은 탑에 살고 있습니다.
@@ -22,6 +25,38 @@
     //https://school.programmers.co.kr/learn/courses/30/lessons/148653
     public class MagicElevator
     {
-        
+        //탐욕법인듯
+        // 6이상이면 올리기
+        // 5일때 다음수가 5이상이면 올리기
+        // 5미만은 내리기
+
+        public static int solution(int storey) {
+            int answer = 0;
+            while (storey != 0) {
+                int n = storey % 10;
+                int gap = 10 - n;
+                int next = (storey / 10) % 10;
+
+                if (n >= 6) {
+                    storey += gap;
+                    answer += gap;
+                }
+                else if (n == 5 && next >= 5) {
+                    storey += gap;
+                    answer += gap;
+                }
+                else {
+                    answer += n;
+                }
+                storey = storey / 10;
+            }
+            return answer;
+        }
+
+        static void Main( string[] args )
+        {
+            int res = solution( 545 );
+            Console.WriteLine( res );
+        }
     }
 }

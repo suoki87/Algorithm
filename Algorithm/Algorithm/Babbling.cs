@@ -58,15 +58,15 @@ namespace ConsoleApp1
             return answer;
         }
 
-        static void Main( string[] args )
-        {
-            var babblings = new string[]
-            {
-                "ayaye", "uuu", "yeye", "yemawoo", "ayaayaa",
-            };
-
-            var res = solution( babblings );
-            Console.WriteLine( res );
-        }
+        // static void Main( string[] args )
+        // {
+        //     var babblings = new string[]
+        //     {
+        //         "ayaye", "uuu", "yeye", "yemawoo", "ayaayaa",
+        //     };
+        //
+        //     var res = solution( babblings );
+        //     Console.WriteLine( res );
+        // }
     }
 }

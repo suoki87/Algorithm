@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esock\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\esock\\Algorithm\\Algorithm\\Algorithm\\Algorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esock\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\esock\\Algorithm\\Algorithm\\Algorithm\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esock\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\esock\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\esock\\Algorithm\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectName": "Algorithm",
+        "projectPath": "C:\\Users\\esock\\Algorithm\\Algorithm\\Algorithm\\Algorithm.csproj",
         "packagesPath": "C:\\Users\\esock\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esock\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\esock\\Algorithm\\Algorithm\\Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\esock\\AppData\\Roaming\\NuGet\\NuGet.Config",
