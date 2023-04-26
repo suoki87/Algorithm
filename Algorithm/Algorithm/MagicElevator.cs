@@ -53,10 +53,10 @@ namespace ConsoleApp1
             return answer;
         }
 
-        static void Main( string[] args )
-        {
-            int res = solution( 545 );
-            Console.WriteLine( res );
-        }
+        // static void Main( string[] args )
+        // {
+        //     int res = solution( 545 );
+        //     Console.WriteLine( res );
+        // }
     }
 }
